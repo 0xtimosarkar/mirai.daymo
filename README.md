@@ -1,3 +1,3 @@
-# Mirai.Sasori
+# mirai.daymo
 
-A new private mirai variant distributed through over 20 zero-day exploits
+A new private mirai variant distributed over 20 zero-day exploits
