@@ -25,8 +25,8 @@ proc handleConnection(conn: Socket) =
   var portInt: uint16
   
   try:
-    conn = newSocket()
-    conn.connect("example.com", 80)
+    # conn = newSocket()
+    # conn.connect("example.com", 80)
     conn.setDeadline(now() + seconds(10))
 
   # Defer conn.Close() behavior
@@ -41,3 +41,5 @@ proc handleConnection(conn: Socket) =
     # Handle the error
     return
    
+  if bufChk[0] == 0:
+    
